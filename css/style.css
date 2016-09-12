@@ -1,0 +1,170 @@
+p {
+      padding: 5px;
+ 	  	font-family: 'Open Sans';
+	    font-size: 13px;
+	    color: #2c2c2c;
+
+}
+
+/*wrapper*/
+
+.wrapper {
+        margin: 0 auto;
+        height: 960px;
+        width: 1124px;
+        box-shadow: 0 0 20px #dbdbdb;
+
+}
+
+
+/*wrapper*/
+
+.header {
+        margin: 0 48px 50px 48px;
+        padding-top: 50px;
+}
+
+
+.logo {
+       width: 145px;
+       height: 40px;
+}
+
+.menu {
+    	width:1124;
+
+}
+.menu ul {
+	    overflow: hidden;
+			background-image: url("../img/menu.png");
+			background-repeat: repeat-x;
+			margin-top: 40px;
+
+}
+
+.menu li {
+			list-style: none;
+	    float: left;
+}
+
+.menu li a {
+    	display: block;
+	    padding: 0 23px;
+	    font: 15px 'Open Sans';
+	    text-decoration: none;
+	    text-shadow: 1px 1px 2px black;
+	    color: #f9f9f9;
+	    line-height: 40px;
+}
+.menu li a:hover {
+	   font-weight: normal;
+		 background-image: url("../img/link1.png");
+		 border-left: 1px solid #464646;
+		 border-right: 1px solid #464646;
+}
+
+
+/*sidebar*/
+
+ .sidebar {
+	    width: 240px;
+	    line-height: 40px;
+  	  float: left;
+	    margin: 0 0 400px 50px;
+}
+
+.sidebar ul{
+   	   margin: 0 auto;;
+   	   padding: 0;
+    	 list-style: none;
+	     background-repeat:no-repeat;
+}
+
+
+.sidebar a{
+
+	width: 170px;
+	height: 39px;
+	display: block;
+	padding: 0 23px;
+	text-decoration: none;
+	border: solid 1px #c8c8c8;
+	font: 13px 'Open Sans';
+	color: #656363
+}
+
+.sidebar li:hover {
+	padding-left: 35px;
+	background: #f9f9f9;
+	color:#070707;
+}
+
+/*conteiner*/
+
+.conteiner {
+	width: 677px;
+	float: left;
+ margin: 0 40px 0 50px;
+
+
+}
+.box {
+	margin: 0 auto;
+	padding: 0;
+	width: 678px;
+	height: 400px;
+	background-color: #fff;
+	border: solid 1px #c8c8c8;
+}
+
+.box img {
+		 width: 500px;
+     height: 307px;
+		 padding: 25px 70px;
+}
+
+
+/*footer*/
+
+.footer {
+	    clear: both;
+			margin: 0 auto;
+			background-color: #e1e1e1;
+	    width: 960px;
+}
+
+.footer a{
+      padding: 0 25px;
+     	text-decoration: none;
+	    color: #2c2c2c;
+
+}
+
+.links footer{
+	    margin-right: 30px;
+			overflow: hidden;
+}
+
+.links a {
+
+     list-style:none;
+     padding-right: 2px;
+     display: inline;
+     font-family: 'Open Sans';
+	   font-size: 13px;
+	   color: #2c2c2c;
+  }
+
+.links  a:hover{
+	  text-decoration: underline;
+}
+.left {
+	   float: left;
+	   background-color: #e1e1e1;
+	   line-height: 40px;
+}
+
+.right p{
+		   background-color: #e1e1e1;
+	  	 text-align: right;
+}
